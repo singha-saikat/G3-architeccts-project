@@ -1,15 +1,15 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
-.header {
-  background: #ff900e;
+header{
+    background: rgba(255, 144, 14, 0.10);
 }
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 240px;
+  padding: 50px 240px;
 }
 .menus ul {
   display: flex;
@@ -58,13 +58,15 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
 .btn-primary{
-    width: 11rem;
+width: 11rem;
 height: 3rem;
 border-radius: 8px;
+color: white;
 background: #FF900E;
 border: none;
+font-size: 1.25rem;
 margin-bottom: 2rem;
-color: white;
+
 
 }
 .button{
@@ -81,3 +83,5 @@ color: white;
 .banner-img{
     margin-bottom: 2rem;
 }
+/* Responsive Styles */
+
