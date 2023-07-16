@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: #ff900e;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 240px;
+}
+.menus ul {
+  display: flex;
+}
+.menus li {
+  list-style: none;
+  margin: 0 20px;
+}
+.menus li > a {
+  text-decoration: none;
+  color: var(--dark-02, #424242);
+
+  font-size: 1.2rem;
+
+  font-weight: 500;
+}
+.header-ttile {
+  color: var(--dark-01, #131313);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
