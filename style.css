@@ -28,7 +28,56 @@
 }
 .header-ttile {
   color: var(--dark-01, #131313);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 700;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info h1{
+    color: var(--dark-01, #131313);
+text-align: center;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner-description{
+    color: var(--dark-03, #727272);
+text-align: center;
+padding:1.5rem 0;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.btn-primary{
+    width: 11rem;
+height: 3rem;
+border-radius: 8px;
+background: #FF900E;
+border: none;
+margin-bottom: 2rem;
+color: white;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    color: #131313;
+    
+}
+.banner-img{
+    margin-bottom: 2rem;
 }
